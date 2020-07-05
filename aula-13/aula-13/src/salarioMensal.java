@@ -13,5 +13,8 @@ public class salarioMensal {
         double horaMes = scan.nextDouble();
 
         System.out.println("Salario do mês: R$ "+ (precoHora*horaMes));
+
+        if(scan!=null)
+            scan.close();
     }
 }

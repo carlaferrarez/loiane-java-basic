@@ -12,5 +12,8 @@ public class printSoma {
         int numeroDois = scan.nextInt();
 
         System.out.println("A soma é: "+ (numeroDois + numeroUm));
+
+        if(scan!=null)
+            scan.close();
     }
 }

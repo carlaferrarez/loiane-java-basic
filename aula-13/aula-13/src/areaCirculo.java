@@ -9,5 +9,8 @@ public class areaCirculo {
         double raioCirculo = scan.nextDouble();
 
         System.out.println("Área do circulo "+ ((Math.pow(raioCirculo, 2))* Math.PI)+ " m²");
+
+        if(scan!=null)
+            scan.close();
     }
 }

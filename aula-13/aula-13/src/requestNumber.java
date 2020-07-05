@@ -7,5 +7,8 @@ public class requestNumber {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("O número informado foi: "+ scan.nextLine());
+
+        if(scan!=null)
+            scan.close();
     }
 }

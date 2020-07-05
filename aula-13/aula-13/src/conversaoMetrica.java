@@ -9,5 +9,8 @@ public class conversaoMetrica {
         double numeroMetro = scan.nextDouble();
 
         System.out.println("Medição em centímetros "+ (numeroMetro * 100)+ " cm");
+
+        if(scan!=null)
+            scan.close();
     }
 }

@@ -9,5 +9,8 @@ public class areaQuadrado {
         double medidaQuadrado = scan.nextDouble();
 
         System.out.println("Área do quadrado em dobro "+ ((Math.pow(medidaQuadrado, 2))* 2)+ " m²");
+
+        if(scan!=null)
+            scan.close();
     }
 }

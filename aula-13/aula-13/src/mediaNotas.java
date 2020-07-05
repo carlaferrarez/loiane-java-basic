@@ -18,5 +18,8 @@ public class mediaNotas {
         double notaQuatro = scan.nextDouble();
 
         System.out.println("A média das notas é: "+ ((notaUm + notaDois + notaTres + notaQuatro)/4));
+
+        if(scan!=null)
+            scan.close();
     }
 }
