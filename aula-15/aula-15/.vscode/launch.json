@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-comparacaoNumero<aula-15_98bba454>",
+            "request": "launch",
+            "mainClass": "comparacaoNumero",
+            "projectName": "aula-15_98bba454"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-comparacaoProduto<aula-15_98bba454>",
+            "request": "launch",
+            "mainClass": "comparacaoProduto",
+            "projectName": "aula-15_98bba454"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-positivoNegativo<aula-15_98bba454>",
+            "request": "launch",
+            "mainClass": "positivoNegativo",
+            "projectName": "aula-15_98bba454"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-vogalConsoante<aula-15_98bba454>",
+            "request": "launch",
+            "mainClass": "vogalConsoante",
+            "projectName": "aula-15_98bba454"
+        }
+    ]
+}
